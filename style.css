@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fffcf5;
+    max-width: cover;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: Fredoka;
+    src:local(Fredoka), url('Fredoka.ttf') format('truetype');
+}
+ 
+/* HEADER */    
+header{
+    background-color: #fffcf5;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.h1{
+    margin-right: auto;
+    font-family: Fredoka;
+    color:#d13964;
+    padding: 10px;
+}
+
+header.menu-principal ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header .menu-principal li a{
+    padding: 10px;
+    color: #d13964;
+    font-size: 1.3rem;
+    font-family: "Fredoka", sans-serif;
+}
+.section-div{
+    display: flex;
+    align-items: center;
+    gap:32px;
+    padding: 60px;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+    color: antiquewhite;
+}
+
+.section-div-titulo{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+ }
+.section-p {
+    gap: 2px;
+    flex-direction: row;
+ }
+ main {
+    background: #d13964;
+    border-top: 0.4px solid #ebb033;
+    margin-bottom: 48px;
+ }
+
+.rodape{
+    background-color:darkslategray;
+    padding: 18px;
+    height: 12vh;
+    text-align: left;
+    display: flex;
+    gap:2rem;
+ }
+ h2{
+    display: flex;
+    flex-direction:row;
+    gap:32px;
+    padding: 60px;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+    color: antiquewhite;
+ }
